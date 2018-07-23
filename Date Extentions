@@ -5,3 +5,13 @@ https://help.salesforce.com/articleView?id=mc_es_list_versus_data_extension.htm&
 Programmatic Marketing Content
 
 https://developer.salesforce.com/docs/atlas.en-us.noversion.mc-programmatic-content.meta/mc-programmatic-content/updatedata.htm
+
+
+DeleteDE('SendDE', '_SubscriberKey','12345')
+
+Deletes date from SendDE , _SubscriberKey ='12345' ;
+
+
+Lookup
+%%=Lookup('PostalCode','City','PostalCode',46016)=%%
+Returns the city associated with the postal code 46016 in the PostalCode data extension: Anderson, IN
