@@ -15,3 +15,7 @@ Deletes date from SendDE , _SubscriberKey ='12345' ;
 Lookup
 %%=Lookup('PostalCode','City','PostalCode',46016)=%%
 Returns the city associated with the postal code 46016 in the PostalCode data extension: Anderson, IN
+
+
+Journey Builder 'Update Contact Activity' with Data Extension using composite primary keys
+https://help.salesforce.com/articleView?id=000268020&language=en_US&type=1
