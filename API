@@ -1,0 +1,9 @@
+Most of the developer select SOAP API because it is easy to deploy in third party legacy system by using WSDL.
+You don't need to write code to authenticate with exact target. You only need to leverage fixed methods present in wsdl file.
+
+SOAP API called in backend of the code and in front end you get the language in which you are best. 
+Example if someone want to integrate .net system with Exactarget. 
+They can code in c# to call SOAP API. 
+Similarly you can code in Apex to call SOAP methods. 
+You don't need to write logic/code to authenticate or perform some specific operation with Exactarget. 
+SAOP already has methods for all supported base operations. You can build your logic over it.
