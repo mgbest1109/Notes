@@ -1,2 +1,2 @@
-# SFMS
+# SFMC
 Marketing studio study
