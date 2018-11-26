@@ -1,0 +1,26 @@
+elect Evaluate all records.
+
+
+
+https://salesforce.stackexchange.com/questions/211699/journey-builder-with-updated-data
+
+Once a contact has entered the journey, all the data in your entry source DE for that contact will be saved in journey data.
+
+If you look at any decision split, you will see two options
+
+Journey Data : Point in Time data when the contact enters the journey (it never changes)
+Lives in system memory, so it is faster to access than Contact Data
+Contact Data: A system of Record - always has the most up-to-date value
+You can always update the records and fields in the entry source DE, but to get the most up-to-date value, 
+you need to link the entry source DE to the contact record under an attribute group in contact builder, Data Designer.
+
+Steps to do this.
+
+Go to Contact builder -> Data designer
+Create an attribute group
+Link your Entry Source DE to Contact record by creating one to one mapping between the Contact Key on 
+the left side to the Subscriber Key in your DE on the right side.
+Give 10 to 15 minutes, so that this mapping will reflect in the decision split in journey builder
+Now, go to your journey, click on decision split, select contact data, 
+select the attribute group you have created, select the entry source DE, select the relevant field to make your decision. 
+This field will now give you the latest value which is updated by your automation.
