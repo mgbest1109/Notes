@@ -1,7 +1,7 @@
-Create Org : developer.salesforce.com/signup
-Install package : bit.ly/tdx-16-apex-test-1
-Verify Steps 1 and 2 of project : bit.ly/tdx-conf-app 
-
+                                Create Org : developer.salesforce.com/signup
+                                Install package : bit.ly/tdx-16-apex-test-1
+                                Verify Steps 1 and 2 of project : bit.ly/tdx-conf-app 
+--- APEX
 Force.com Native Prog language. 
 Obj Oriented ( Classes , interfaces, inheritance)
 Tenant Secure
@@ -13,13 +13,15 @@ Complied only on server , no local server, on app server.
 
 what is compiled means --> translating to machine language , saved in the database as metadata. salesforce objectes are stored as metadata. 
 
-APex Syntax constructs : 
-primitive data types 
-flow control ( if , for , While ...) 
-exception handling  -- handling when things go wrong in the code.
-Collection  : list, set , map
-case insensitive. 
-singel quotes for strings  --> 'String'
+                  APex Syntax constructs : 
+                  primitive data types 
+                  flow control ( if , for , While ...) 
+                  exception handling  -- handling when things go wrong in the code.
+                  Collection  : list, set , map
+                  case insensitive. 
+                  singel quotes for strings  --> 'String'
+                  All lines are terminated with ; (semicolons)
+                 
 
-
-
+ID data tyoe
+SObject class -- (Object in SF ,accounts contacts leads etc , in apex its a programming construct.) they live in memory ( in app server )
