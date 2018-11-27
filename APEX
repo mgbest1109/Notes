@@ -74,8 +74,14 @@ Trailhead Projects , build a conf management app.
 https://www.youtube.com/watch?v=DGy-j2xHMsc
 59.57 
 
-
-
-
-
 }
+
+
+
+
+static methods --> dont require an Obj
+instance methods --> require an Obj to be instantiated. 
+
+re using what is out there ( OOP)
+
+
