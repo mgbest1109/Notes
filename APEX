@@ -25,3 +25,57 @@ what is compiled means --> translating to machine language , saved in the databa
 
 ID data tyoe
 SObject class -- (Object in SF ,accounts contacts leads etc , in apex its a programming construct.) they live in memory ( in app server )
+
+Test Classes. 
+
+
+
+APEX Class : 
+attr ( describers class) , methods (Actions of class)
+Class is the idea , object is tangiable. 
+object has access to items only from that class. 
+objdct is an instance of a class , therefore we are instantiating a class.
+
+/%public private protected and global .. %/
+public can be accessed by anything in that Org
+public class MortgageCalculator {
+
+public Double amount {get;set;}
+public Double rate {get;set;}
+public integer years {get;set;}
+
+    public Double calculateMonthlyPayment() {
+    Integer months= years*12 ;
+    Double monthlyrate =rate/(12*100);
+    return amount*(monthlyRate/(1-Math.pow(1+monthlyrate,-months)));
+    }
+}
+
+
+Developmenta Tools 
+Developer console 
+Force.com IDE (Eclipse Plugin)
+Cloud9
+MavensMate
+The Welking suite
+... and more 
+
+            Developer Console :
+            Browser based IDE 
+            Create Class , Triggers, Pages 
+            Execute Apex Anonymously 
+            Execute SOQL Queries
+            Run Unit Test 
+            Review Debug Logs
+
+
+Trailhead Projects , build a conf management app. 
+
+https://www.youtube.com/watch?v=DGy-j2xHMsc
+59.57 
+
+
+
+
+
+}
